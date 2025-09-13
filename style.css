@@ -1,0 +1,149 @@
+/*Page 1*/
+/*--------------------------------------------*/
+/*General*/
+body{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(17, 75, 78);
+}
+.text{
+    color: rgb(17, 75, 78);
+}
+#whole-card, footer{
+    background-color: rgb(249, 240, 224);
+    border: solid 3px rgb(17, 75, 78);
+    border-radius: 15px;
+}
+/*Header*/
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    width: 80%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 25%;
+    font-size: 25px;
+}
+/*Main*/
+#customize-order-card{
+    padding: 5% 0% 0% 0%;
+    font-size: 25px;
+}
+.form{
+    text-align: center;
+}
+select{
+    margin: auto;
+    padding: auto;
+    font-size: large;
+}
+option{
+    font-size: large;
+}
+#customize-order-card{
+    display: inline-block;
+    align-items: center;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: auto;
+    padding: 30px;
+    margin: 5px 0 5px 0;
+}
+.form > img{
+    width:200px;
+    height:150px;
+    border:2px dashed #ccc;
+    display:block;
+    margin: 20px auto 20px auto;
+}
+.macros{
+    margin-bottom: 0%; padding-bottom: 0%;
+}
+#protein-text, #carb-text, #fat-text, #final-text{
+    margin-top: 0%;
+}
+input{
+    font-size: large;
+}
+.Check{
+    font-size: 25px;
+}
+#check-button{
+    font-size: 30px;
+    background-color: rgb(17, 75, 78);
+    color: rgb(249, 240, 224);
+    border: 1px solid rgb(17, 75, 78);
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(249, 240, 224);
+    border: solid 3px rgb(17, 75, 78);
+    border-radius: 15px;
+}
+footer > p > a{
+    color: rgb(17, 75, 78);
+}
+/*--------------------------------------------*/
+/*Page 2*/
+/*--------------------------------------------*/
+#ready-meals {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(249, 240, 224);
+    border: 3px solid rgb(17, 75, 78);
+    border-radius: 15px;
+    width: 90%;
+}
+#ready-meals h1 {
+    font-size: 36px;
+    color: rgb(17, 75, 78);
+    margin-bottom: 20px;
+}
+#ready-meals p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.meal {
+    border: 2px solid rgb(17, 75, 78);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    text-align: left;
+}
+.meal h2 {
+    font-size: 28px;
+    color: rgb(17, 75, 78);
+    margin-bottom: 10px;
+}
+.meal img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+.meal h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    color: rgb(17, 75, 78);
+}
+.meal ul, .meal ol {
+    margin: 10px 0 20px 40px;
+    font-size: 18px;
+}
+.meal p {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(17, 75, 78);
+}
+/*--------------------------------------------*/

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Fresh Fuel</title>
+    </head>
+    <body>
+        <div id="whole-card">
+            <header>
+                <div id="header-top">
+                    <img src="FFLogo.png" alt="Fresh Fuel logo" style="width: 200px;">
+                    <h1 class="text">Fresh Fuel</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><b><a href="#customize-order-card" class="text">Customize Your Meal</a></b></li>
+                        <li><b><a href="meals.html#ready-meals-card" class="text">Ready Meals</a></b></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="customize-order-card">
+                    <div class="card">
+                        <div class="form">
+                            <label>Choose your protein side</label>
+                            <select name="protein-side" id="protein-side">
+                                <option value="">-- choose protein --</option>
+                                <option value="protein1" id="">Chicken Breast (skinless, cooked)</option>
+                                <option value="protein2">Salmon (cooked)</option>
+                                <option value="protein3">Eggs (whole)</option>
+                                <option value="protein4">Tofu (firm)</option>
+                                <option value="protein5">Steak (cooked beef)</option>
+                            </select><br><br>
+                            <label>Grams </label><input type="number" id="protein-weight" min="0" placeholder="Ex: (100g)"  >
+                            <img id="protein-pic" src="placeholder.png" alt="Add a side">
+                        </div>
+                        <h3 id="Macros1" class="macros"></h3><br>
+                        <h4 id="protein-text"></h4>
+                        <button id="check-protein" class="Check">Check in</button>
+                    </div>
+                    <div class="card">
+                        <div class="form">
+                            <label>Choose your carbohydrate side</label>
+                            <select name="carb-side" id="carb-side" >
+                                <option value="">-- choose carbs --</option>
+                                <option value="carb1">White Rice (cooked)</option>
+                                <option value="carb2">Sweet Potato (boiled)</option>
+                                <option value="carb3">Quinoa (cooked)</option>
+                                <option value="carb4">Oats (rolled, dry)</option>
+                                <option value="carb5">Chickpeas (boiled)</option>
+                            </select><br><br>
+                            <label>Grams </label><input type="number" id="carb-weight" min="0" placeholder="Ex: (100g)">
+                            <img id="carb-pic" src="placeholder.png" alt="Add a side">
+                        </div>
+                        <h3 id="Macros2" class="macros"></h3><br>
+                        <h4 id="carb-text"></h4>
+                        <button id="check-carb" class="Check">Check in</button>
+                    </div>
+                    <div class="card">
+                        <div class="form">
+                            <label>Choose your fats side </label>
+                            <select name="fats-side" id="fat-side" >
+                                <option value="">-- choose fats --</option>
+                                <option value="fat1">Avocado</option>
+                                <option value="fat2">Almonds</option>
+                                <option value="fat3">Olive Oil</option>
+                                <option value="fat4">Peanut Butter</option>
+                                <option value="fat5">Walnuts</option>
+                            </select><br><br>
+                            <label>Grams </label><input type="number" id="fat-weight" min="0" placeholder="Ex: (100g)">
+                            <img id="fat-pic" src="placeholder.png" alt="Add a side">
+                        </div>
+                        <h3 id="Macros3" class="macros" class="Check"></h3><br>
+                        <h4 id="fat-text"></h4>
+                        <button id="check-fat" class="Check">Check in</button>
+                    </div>
+                    <h3 id="Macros4" class="macros"></h3><br>
+                    <h4 id="final-text"></h4>
+                    <h4 id="status"></h4>
+                    <button id="check-button">Check Macros</button>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p>Made with love by <b>3amojoe</b> ❤️ <br> Stay tuned for more at <a href="https://www.codedex.io/@3amojoe" target="_blank">my profile</a></p>
+        </footer>
+    </body>
+    <script src="main.js"></script>
+</html>
