@@ -60,8 +60,8 @@ option{
     margin: 5px 0 5px 0;
 }
 .form > img{
-    width:280px;
-    height:200px;
+    width:300px;
+    height:250px;
     border:2px dashed #ccc;
     display:block;
     margin: 20px auto 20px auto;
@@ -147,3 +147,4 @@ footer > p > a{
     color: rgb(17, 75, 78);
 }
 /*--------------------------------------------*/
+
